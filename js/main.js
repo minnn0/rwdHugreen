@@ -64,7 +64,7 @@
             $('#header .top_search .m_btn_search').removeClass('open');
             $('.search_open').hide();
         }
-    }).trigger();
+    }).trigger('resize');
 
     // footer 패밀리사이트 리스트 슬라이드 
     $('#footer .family_site').on('click', function() {
